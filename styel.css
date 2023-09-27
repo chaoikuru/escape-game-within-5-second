@@ -37,6 +37,7 @@ nav li{
 
 nav a{  
     color: #000000;
+    position: relative;
     font-size:  20px;
     letter-spacing: 5px;
     font-family: stolzl, sans-serif;
@@ -45,6 +46,35 @@ nav a{
     text-decoration: none;
     text-align: right;
 }
+
+nav a:hover{
+    transition : all 0.5s;
+}
+
+nav a {
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+  }
+
+nav a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    background-color: #000000;
+    -webkit-transition: width 0.2s ease;
+    -moz-transition: width 0.2s ease;
+    -o-transition: width 0.2s ease;
+    transition: width 0.2s ease;
+  }
+  
+nav a:hover:before {
+    width: 100%;
+  }
 
 section{
    padding: 20px;
@@ -304,10 +334,15 @@ h2{
 }
 
 .ready{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ready-button{
+    display: flex;
+    justify-content: center;
 }
 
 .ready p{
@@ -323,9 +358,9 @@ h2{
 }
 
 .ready a{
-    font-size: 40px;
+    font-size: 36px;
     font-family: stolzl, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     display: inline-block;
     color: #000;
@@ -333,11 +368,11 @@ h2{
     text-align: center;
     border: solid #000000 thick;
     border-radius: 20px;
-    padding: 30px 0px;
+    padding: 20px 60px;
     margin: 30px;
 }
 
-a:hover{
+.ready a:hover{
     color: #ffffff;
     background-color: #000000;
     border-radius: 20px;
@@ -552,4 +587,9 @@ footer img{
     .door-exit{
         visibility: visible;
     }
+}
+
+.toclear a{
+    margin: 0;
+    padding: 0;
 }
