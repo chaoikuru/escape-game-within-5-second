@@ -577,9 +577,8 @@ footer img{
 }
 
 .door-exit{
-    width: 10%;
-    height: 10%;
-    margin: 30px;
+    width: 55%;
+    margin: 0px;
     visibility: hidden;
 }
 
@@ -587,9 +586,21 @@ footer img{
     .door-exit{
         visibility: visible;
     }
+
+    .toclear{
+        visibility: visible;
+    }
 }
 
-.toclear a{
+.toclear {
+    visibility: hidden;
+    display:inline-block;
     margin: 0;
     padding: 0;
+    width: 100px;
+    text-align: center;
 }
+
+
+/* エピソード２ */
+
