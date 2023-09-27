@@ -15,22 +15,22 @@
   
   .loading__box {
     position: fixed;
-    top: 10%;
-    right: 50%;
+    top: 50%;
+    left: 10%;
+    font-size: 1px;
+    color: #8282820a;
     display: flex;
-    height: 60px;
-    width: 60px;
     justify-content: center;
     align-items: center;
     z-index: 100;
-    background: #000000;
   }
   
   #loading__check {
     display: none;
   }
+  
   #loading__check:checked ~ .loading__box span {
-    background: rgba(255, 255, 255, 0);
+    background: rgb(255, 1, 1);
   }
   
   .now-loading{
@@ -44,10 +44,16 @@
   .loading-img{
       display: flex;
       justify-content: center;
+      text-align: center;
   }
   
   .loadingnow{
       width: 50%;
   }
-  
+
+  .loading-exit{
+    display: block;
+    width: fit-content;
+    text-align: center;
+  }
   

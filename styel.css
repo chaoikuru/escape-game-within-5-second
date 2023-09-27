@@ -564,7 +564,7 @@ footer img{
 }
 .doors{
     display: flex;
-    margin: 50px;
+    margin: 60px;
     justify-content: center;
     align-items: baseline;
     flex-wrap: wrap;
@@ -577,7 +577,7 @@ footer img{
 }
 
 .door-exit{
-    width: 55%;
+    width: 54%;
     margin: 0px;
     visibility: hidden;
 }
@@ -597,7 +597,7 @@ footer img{
     display:inline-block;
     margin: 0;
     padding: 0;
-    width: 100px;
+    width: 105px;
     text-align: center;
 }
 
