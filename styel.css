@@ -1,0 +1,555 @@
+*{
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    margin-top: 100px;
+}
+nav{
+    position: fixed;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0;
+    text-align: right;
+    right: 0;
+    top: 30px;
+ }
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    text-align: right;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    display: inline;
+}
+
+nav a{  
+    color: #000000;
+    font-size:  20px;
+    letter-spacing: 5px;
+    font-family: stolzl, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-align: right;
+}
+
+section{
+   padding: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.title-text{
+    margin: 20px;
+}
+
+.title-text p{
+    font-size: 16px;
+    letter-spacing: 0.5em;
+    font-family: stolzl, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-family: "dnp-shuei-gothic-gin-std", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 170px;
+    letter-spacing: 5px;
+    line-height: 240px;
+    margin: 0;
+}
+
+.header-image{
+    margin-top: 30px;
+    width: 35%;
+    height: 35%;
+}
+
+h2{
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 0.5em;
+    font-family: stolzl, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 50px;
+    padding: 0px;
+}
+.title1{
+    letter-spacing: 0.1em;
+}
+
+.about{
+    margin: auto;
+    background-image: url(images/b.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    margin: 100px;
+}
+
+.about-text{
+    margin: 0;
+    font-family: dnp-shuei-gothic-gin-std, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0.5em;
+    line-height: 72px;
+    font-family: stolzl, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-image2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.header-image2 img{
+    width: 5%;
+    height: 5%;
+}
+
+.R1{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+.rule1{
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+.title1 {
+    font-size: 128px;
+    font-family: stolzl, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+}
+
+.rule1-en{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.no{
+    font-size: 400px;
+    letter-spacing: 10px;
+    font-family: stolzl, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+}
+
+.ht1{
+    font-size: 128px;
+    letter-spacing: 0.25em;
+    font-family: stolzl, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+}
+
+.ht2{
+    font-size: 128px;
+    letter-spacing: 0.115em;
+    font-family: stolzl, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+}
+
+.rule1-ja{
+    margin-top: -50px;
+}
+
+.rule1-ja p{
+    font-family: dnp-shuei-gothic-gin-std, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 140px;
+    letter-spacing: 0.215em;
+    margin: 0;
+}
+
+.rule2{
+    display: flex;
+    position: relative;
+    overflow: visible;
+}
+
+.rure2-ja{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+}
+
+.many-2{
+    font-family: stolzl, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.many-big{
+    display: flex;
+    font-size: 110px;
+    align-items: baseline;
+    letter-spacing: 10px;
+    font-family: dnp-shuei-gothic-gin-std, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+    margin-left: 240px;
+}
+
+.many-small{
+    font-family: dnp-shuei-gothic-gin-std, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 380px;
+}
+
+.rule2-en{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    transform: translate(50%, 77%);
+}
+
+.rule2-en p{
+    text-align: right;
+    font-family: stolzl, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100px;
+    letter-spacing: 10px;
+    margin: 20px;
+}
+
+.a1 p{
+    padding: 0;
+    font-size: 100px;
+}
+
+.a2 p{
+    padding: 0;
+    font-size: 150px;
+}
+
+.a3 p{
+    padding: 0;
+    font-size: 200px;
+}
+
+.rule3{
+    margin-top: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.never{
+    font-size: 290px;
+    font-family: stolzl, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.5em;
+    margin: 0px auto;
+    padding: 0;
+    text-align: center;
+    max-width: 100%;
+}
+
+.giveup{
+    font-size: 290px;
+    font-family: stolzl, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.ready{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 300px;
+}
+
+.ready p{
+    font-size: 32px;
+    font-family: stolzl, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.55em;
+    text-indent: 0.55em;
+    margin-top: 100px;
+    padding: 0;
+    text-align: center;
+}
+
+.ready a{
+    font-size: 40px;
+    font-family: stolzl, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    border: solid #000000 thick;
+    border-radius: 20px;
+    padding: 30px 0px;
+    margin: 30px;
+}
+
+a:hover{
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+footer{
+    font-family: stolzl, sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1%;
+    margin: 0;
+    padding: 10px;
+    border: solid #000000 4px;
+    background-color: rgb(255, 255, 255);
+}
+
+footer img{
+    width: 150px;
+}
+
+
+
+
+/* エピソード画面 */
+
+.episode{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.episode-title{
+    font-family: stolzl, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0.16em;
+    padding: 0;
+    margin: 0;
+}
+
+.episode p{
+    font-size: 64px;
+    letter-spacing: 0.2em;
+    font-family: stolzl, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 36px;
+    padding: 0;
+}
+
+.episode img{
+    width:80%;
+    height: 80%;
+}
+
+.episode-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.play a{
+    font-size: 24px;
+    font-family: stolzl, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    border: solid #000000 thick;
+    border-radius: 20px;
+    padding: 26px 62px;
+    margin: 60px;
+}
+
+.play a:hover{
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+
+
+
+/* 結果画面 */
+
+.result{
+    text-align: center;
+    padding: 100px;
+}
+
+.result p{
+    font-size: 128px;
+    font-family: stolzl, sans-serif;
+    text-indent: 0.7em;
+    letter-spacing: 0.7em;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 60px;
+}
+
+.result a{
+    font-size: 24px;
+    font-family: stolzl, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    border: solid #000000 thick;
+    border-radius: 20px;
+    padding: 26px 62px;
+    margin-bottom: 30px;
+}
+
+.result a:hover{
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.result img{
+    width: 400px;
+    padding: 0;
+}
+
+.fail{
+    background-color: #000000;
+}
+
+.fail p{
+    color: #ffffff;
+}
+
+.fail a{
+    font-size: 24px;
+    font-family: stolzl, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    border: solid #ffffff thick;
+    border-radius: 20px;
+    padding: 26px 62px;
+    margin-bottom: 30px;
+}
+
+.fail a:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.fail img{
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* エピソード１ */
+
+.qestion{
+    text-align: center;
+}
+.doors{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.door{
+    width: 10%;
+    height: 10%;
+    margin: 30px;
+}
+
+.door-exit{
+    width: 10%;
+    height: 10%;
+    margin: 30px;
+    visibility: hidden;
+}
+
+@media(max-width:768px){
+    .door-exit{
+        visibility: visible;
+    }
+}
