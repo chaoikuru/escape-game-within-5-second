@@ -180,7 +180,7 @@ h2{
 }
 
 .ro-img{
-    width: 25%;
+    width: 440px;
 }
 
 .R1{
@@ -255,6 +255,7 @@ h2{
 }
 
 .rule2{
+    background-image: url(../images/gu.gif);
     display: flex;
     position: relative;
     overflow: visible;
@@ -309,6 +310,10 @@ h2{
     font-size: 72px;
     letter-spacing: 10px;
     margin: 20px;
+}
+
+.gu{
+    width: 100px;
 }
 
 .a1 p{
