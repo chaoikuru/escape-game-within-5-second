@@ -131,7 +131,7 @@ h2{
 
 .about{
     margin: auto;
-    background-image: url(images/b.png);
+    background-image: url(../images/b.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 80%;
