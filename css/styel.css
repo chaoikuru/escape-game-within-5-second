@@ -568,7 +568,8 @@ footer img{
 }
 .doors{
     display: flex;
-    margin: 60px;
+    margin: 70px;
+    margin-top: 200px;
     justify-content: center;
     align-items: baseline;
     flex-wrap: wrap;
@@ -582,7 +583,7 @@ footer img{
 
 .door-exit{
     width: 54%;
-    margin: 0px;
+    margin: 10px;
     visibility: hidden;
 }
 
@@ -606,5 +607,30 @@ footer img{
 }
 
 
-/* エピソード２ */
+/* カウントダウン */
 
+#countdown {
+    font-family: stolzl, sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+}
+
+.qestion{
+    font-family: dnp-shuei-gothic-gin-std, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0;
+}
+
+.qestion-title{
+    background-color: #aeaeae1d;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 100px;
+}

@@ -45,6 +45,7 @@
       display: flex;
       justify-content: center;
       text-align: center;
+      margin-top: 100px;
   }
   
   .loadingnow{
@@ -56,4 +57,23 @@
     width: fit-content;
     text-align: center;
   }
+
+  .qestion{
+    font-family: dnp-shuei-gothic-gin-std, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0;
+}
+
+.qestion-title{
+    background-color: #aeaeae1d;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 100px;
+}
   
