@@ -162,6 +162,27 @@ h2{
     height: 5%;
 }
 
+.R0{
+    padding: 80px 0px 150px;
+    margin-top: 50px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.r0-text{
+    font-family: dnp-shuei-gothic-gin-std, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.ro-img{
+    width: 25%;
+}
+
 .R1{
     display: flex;
     justify-content: space-around;
@@ -173,14 +194,16 @@ h2{
    justify-content: flex-start;
    flex-direction: column;
    flex-wrap: wrap;
+   padding-bottom: 150px;
 }
 
 .title1 {
-    font-size: 128px;
+    font-size: 100px;
     font-family: stolzl, sans-serif;
     font-weight: 600;
     font-style: normal;
     margin: 0;
+    top: 100px;
 }
 
 .rule1-en{
@@ -191,7 +214,7 @@ h2{
 }
 
 .no{
-    font-size: 400px;
+    font-size: 300px;
     letter-spacing: 10px;
     font-family: stolzl, sans-serif;
     font-weight: 600;
@@ -200,7 +223,7 @@ h2{
 }
 
 .ht1{
-    font-size: 128px;
+    font-size: 80px;
     letter-spacing: 0.25em;
     font-family: stolzl, sans-serif;
     font-weight: 500;
@@ -209,7 +232,7 @@ h2{
 }
 
 .ht2{
-    font-size: 128px;
+    font-size: 80px;
     letter-spacing: 0.115em;
     font-family: stolzl, sans-serif;
     font-weight: 500;
@@ -225,7 +248,7 @@ h2{
     font-family: dnp-shuei-gothic-gin-std, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 100px;
+    font-size: 80px;
     line-height: 140px;
     letter-spacing: 0.215em;
     margin: 0;
@@ -235,6 +258,7 @@ h2{
     display: flex;
     position: relative;
     overflow: visible;
+    padding-bottom: 150px;
 }
 
 .rure2-ja{
@@ -252,29 +276,29 @@ h2{
 
 .many-big{
     display: flex;
-    font-size: 110px;
+    font-size: 80px;
     align-items: baseline;
     letter-spacing: 10px;
     font-family: dnp-shuei-gothic-gin-std, sans-serif;
     font-weight: 600;
     font-style: normal;
     margin: 0;
-    margin-left: 240px;
+    margin-left: 340px;
 }
 
 .many-small{
     font-family: dnp-shuei-gothic-gin-std, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 40px;
-    margin-left: 380px;
+    font-size: 36px;
+    margin-left: 350px;
 }
 
 .rule2-en{
     margin: 0;
     padding: 0;
     position: absolute;
-    transform: translate(50%, 77%);
+    transform: translate(50%, 60%);
 }
 
 .rule2-en p{
@@ -282,7 +306,7 @@ h2{
     font-family: stolzl, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 100px;
+    font-size: 72px;
     letter-spacing: 10px;
     margin: 20px;
 }
