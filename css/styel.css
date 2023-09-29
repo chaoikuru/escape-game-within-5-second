@@ -1,5 +1,5 @@
 *{
-    overflow-x: hidden;
+    
 }
 
 body{
@@ -198,6 +198,55 @@ h1{
     .header-image{
         margin-top: 10px;
         width: 60%;
+    }
+}
+
+@media(max-width:450px){
+    body{
+        max-width: 100%;
+        overflow: visible;
+    }
+
+    section{
+        padding: 0;
+    }
+
+    
+    header{
+        margin-top: 0px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .title-text{
+        margin: 0;
+        text-align: center;
+    }
+
+    .share{
+        display: none;
+    }
+
+    .title{
+        column-gap: 0px;
+    }
+
+    h1{
+        font-size: 100px;
+        line-height: 130px;
+        text-align: left;
+    }
+
+    .title-text p{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .header-image{
+        margin-top: 10px;
+        width: 50%;
     }
 }
 
@@ -502,7 +551,7 @@ h2{
 @media(max-width:768px){
 
     .container{
-        padding: 0 65px;
+        padding: 0 30px;
     }
 
     .rule2{
