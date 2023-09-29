@@ -471,10 +471,6 @@ h2{
     margin-right: 420px;
 }
 
-.gu{
-    width: 100px;
-}
-
 .a1 p{
     padding: 0;
     font-size: 100px;
@@ -491,6 +487,11 @@ h2{
 }
 
 @media(max-width:768px){
+
+    .rule2{
+        margin: 0px;
+    }
+
     .many-big{
         font-size: 50px;
         margin-left: 0;
@@ -498,8 +499,8 @@ h2{
 
     .many-small{
         margin-left: 0;
-        font-size: 20px;
-        column-gap: 120px;
+        font-size: 16px;
+        column-gap: 160px;
     }
 
     .mj{
@@ -511,7 +512,7 @@ h2{
     }
 
     .rule2-en p{
-        margin-right: 20px;
+        margin-right: 0px;
     }
 
     .a1 p{
