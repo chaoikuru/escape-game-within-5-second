@@ -245,12 +245,13 @@ h2{
     }
 
     .about{
-        margin: 20px;
+        margin: 20px 0px;
     }
 
     .about-text{
-        padding:0 10px;
-        font-size: 16px;
+        padding:0;
+        font-weight: 00;
+        font-size: 12px;
         line-height: 34px;
     }
 
@@ -289,11 +290,12 @@ h2{
     }
 
     .ro-img{
-        width: 250px;
+        width: 230px;
     }
 
     .r0-text{
-        font-size: 16px;
+        font-size: 14px;
+        
     }
 }
 
