@@ -950,6 +950,48 @@ footer img{
 
 }
 
+@media(max-width:450px){
+
+    .result{
+        padding: 0;
+        padding-top: 100px;
+    }
+
+    .result p{
+        font-size: 36px;
+        letter-spacing: 0.3em;
+        text-indent: 0.3em;
+        margin: 10px;
+    }
+
+    .result a{
+        font-size: 16px;
+        padding: 20px 48px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .fail a{
+        font-size: 16px;
+        padding: 20px 48px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .fail img{
+        width: 250px;
+    }
+
+    .result img{
+        width: 250px;
+    }
+
+    .result .fail{
+        padding-bottom: 260px;
+    }
+
+}
+
 /* エピソード１ */
 
 
