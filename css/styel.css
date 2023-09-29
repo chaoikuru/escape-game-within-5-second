@@ -746,6 +746,37 @@ footer img{
 }
 
 
+@media(max-width:768px){
+
+    .episode{
+        margin-bottom: 120px;
+    }
+    
+    .episode-title{
+        margin-top: 60px;
+        font-size: 20px;
+    }
+
+    .episode p{
+        font-size: 24px;
+    }
+
+    .episode-img{
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    .episode-img img{
+        width: 80%;
+    }
+
+    .play a{
+        font-size: 16px;
+        padding: 20px 48px;
+    }
+}
+
+
 
 
 /* 結果画面 */
