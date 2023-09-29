@@ -145,4 +145,16 @@
     .loading__content{
       margin-top: 100px;
     }
+
+    .now-loading{
+      font-size: 28px;
+    }
+
+    .loadingnow{
+      padding-top: 200px;
+    }
+  }
+
+  @media(max-width:450px){
+     
   }

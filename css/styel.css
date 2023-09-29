@@ -880,6 +880,7 @@ footer img{
 }
 
 .fail{
+    padding-bottom: 300px;
     background-color: #000000;
 }
 
@@ -986,8 +987,8 @@ footer img{
         width: 250px;
     }
 
-    .result .fail{
-        padding-bottom: 260px;
+     .fail{
+        padding-bottom: 1000px;
     }
 
 }
