@@ -4,6 +4,7 @@
 
 body{
     margin: 0;
+
 }
 
 header{
@@ -118,7 +119,7 @@ nav a:hover:before {
 }
 
 section{
-   padding: 60px;
+   padding: 60px 0;
    padding-bottom: 100px;
 }
 
@@ -272,7 +273,8 @@ h2{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 80%;
-    margin: 100px;
+    max-width: 1080px;
+    margin: 0 auto;
     margin-top: 200px;
 }
 
@@ -325,7 +327,7 @@ h2{
 .R0{
     padding: 80px 0px 150px;
     margin-top: 50px;
-    margin: 100px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     column-gap: 30px;
@@ -478,11 +480,15 @@ h2{
     display: flex;
     flex-direction: column;
     padding-bottom: 150px;
+    max-width: 1080px;
+    margin: 0 auto;
+    
 }
 
 .rure2-ja{
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .many-2{
@@ -499,8 +505,7 @@ h2{
     font-family: dnp-shuei-gothic-gin-std, sans-serif;
     font-weight: 600;
     font-style: normal;
-    margin: 0;
-    margin-left: 400px;
+    margin: 0 auto;
 }
 
 .many-small{
@@ -509,8 +514,9 @@ h2{
     font-style: normal;
     font-size: 36px;
     display: flex;
-    margin-left: 400px;
-    column-gap: 375px;
+    margin: 0 auto;
+    justify-content: space-between;
+    
     /* justify-content: flex-start; */
 }
 
@@ -520,8 +526,6 @@ h2{
 
 .rule2-en{
     margin: 0;
-    padding: 10px;
-
 }
 
 .rule2-en p{
@@ -531,24 +535,26 @@ h2{
     font-style: normal;
     font-size: 72px;
     letter-spacing:  0.1em;
-    margin: 20px;
+    margin: 20px 0;
     padding-bottom: 10px;
-    margin-right: 180px;
 }
 
 .a1 p{
     padding: 0;
     font-size: 100px;
+    margin-right: -0.1em;
 }
 
 .a2 p{
     padding: 0;
     font-size: 150px;
+    margin-right: -0.1em;
 }
 
 .a3 p{
     padding: 0;
     font-size: 200px;
+    margin-right: -0.1em;
 }
 
 @media(max-width:768px){
@@ -570,7 +576,6 @@ h2{
     .many-small{
         margin-left: 0;
         font-size: 16px;
-        column-gap: 160px;
     }
 
     .mj{
@@ -603,6 +608,8 @@ h2{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 .never{
@@ -611,11 +618,11 @@ h2{
     font-family: stolzl, sans-serif;
     font-weight: 500;
     font-style: normal;
-    /* letter-spacing: 0.5em; */
+    letter-spacing: 0.12em; 
     margin: 0px auto;
     padding: 0;
     text-align: center;
-    max-width: 100%;
+    max-width: 1080px;
 }
 
 .giveup{
@@ -624,9 +631,12 @@ h2{
     font-weight: 600;
     font-style: normal;
     letter-spacing: 0em;
-    margin: 60px;
+    margin-top: 60px;
+    max-width: 1080px;
+    margin: 0 auto;
     padding: 0;
     text-align: center;
+    letter-spacing: 0.1em;
 }
 
 .ready{
@@ -737,6 +747,8 @@ footer img{
     flex-direction: column;
     text-align: center;
     margin-bottom: 200px;
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 .episode-title{
@@ -840,13 +852,15 @@ footer img{
 .result{
     text-align: center;
     padding: 100px;
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 .result p{
     font-size: 128px;
     font-family: stolzl, sans-serif;
-    text-indent: 0.7em;
-    letter-spacing: 0.7em;
+    text-indent: 0.3em;
+    letter-spacing: 0.3em;
     font-weight: 400;
     font-style: normal;
     text-align: center;
@@ -883,7 +897,6 @@ footer img{
 }
 
 .fail{
-    padding-bottom: 300px;
     background-color: #000000;
 }
 
