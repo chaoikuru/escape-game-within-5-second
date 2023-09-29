@@ -159,6 +159,10 @@ h1{
 
 @media(max-width:768px){
 
+    *{
+        overflow: visible;
+    }
+
     header{
         margin-top: 0px;
     }
@@ -368,6 +372,40 @@ h2{
     line-height: 140px;
     letter-spacing: 0.215em;
     margin: 0;
+}
+
+@media(max-width:768px){
+    
+    .rule1-en{
+        flex-direction: column;
+    }
+    .no{
+        font-size: 250px;
+        width: fit-content;
+    }
+
+    .ht{
+        display: flex;
+        column-gap: 30px;
+        margin-top: -10%;
+    }
+
+    .ht1{
+        font-size: 60px;
+    }
+
+    .ht2{
+        font-size: 60px;
+    }
+
+    .rule1-ja{
+        margin-top: 20px;
+    }
+
+    .rule1-ja p{
+        font-size: 40px;
+        line-height: 60px;
+    }
 }
 
 .rule2{
