@@ -864,6 +864,36 @@ footer img{
     padding: 0;
 }
 
+@media(max-width:768px){
+
+    .result p{
+        font-size: 36px;
+        letter-spacing: 0.3em;
+    }
+
+    .result a{
+        font-size: 16px;
+        padding: 20px 48px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .fail a{
+        font-size: 16px;
+        padding: 20px 48px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .fail img{
+        width: 250px;
+    }
+
+    .result img{
+        width: 250px;
+    }
+
+}
 
 /* エピソード１ */
 
