@@ -134,3 +134,15 @@
     0%, 39%, 100% { opacity: 0; }
     40% { opacity: 1; } 
   }
+
+  @media(max-width:768px){
+
+    .sk-fading-circle{
+      width: 200px;
+      height: 200px;
+    }
+
+    .loading__content{
+      margin-top: 100px;
+    }
+  }

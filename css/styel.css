@@ -501,9 +501,13 @@ h2{
 
 @media(max-width:768px){
 
+    .container{
+        padding: 0 65px;
+    }
+
     .rule2{
-        margin: 100px;
         padding: 0;
+        margin-bottom: 100px;
     }
 
     .many-big{
@@ -869,6 +873,8 @@ footer img{
     .result p{
         font-size: 36px;
         letter-spacing: 0.3em;
+        text-indent: 0.3em;
+        margin: 30px;
     }
 
     .result a{
@@ -897,9 +903,7 @@ footer img{
 
 /* エピソード１ */
 
-.qestion{
-    text-align: center;
-}
+
 .doors{
     display: flex;
     margin: 70px;
@@ -922,12 +926,22 @@ footer img{
 }
 
 @media(max-width:768px){
+
     .door-exit{
         visibility: visible;
     }
 
     .toclear{
         visibility: visible;
+    }
+
+    .doors{
+        margin: 20px;
+        margin-top: 150px;
+    }
+    .door{
+        width: 20%;
+        margin: 10px;
     }
 }
 
@@ -959,12 +973,18 @@ footer img{
 }
 
 .qestion-title{
+    width: 100%;
     background-color: #aeaeae1d;
     position: fixed;
     top: 0px;
-    width: 100%;
     text-align: center;
     margin: 0;
     padding: 20px;
     margin-bottom: 100px;
+}
+
+@media(max-width:768px){
+   .qestion-title{
+    padding: 10px;
+   }
 }
