@@ -158,11 +158,11 @@ h1{
 }
 
 @media(max-width:768px){
-
-    *{
-        overflow: visible;
+    body{
+        max-width: 100%;
     }
 
+    
     header{
         margin-top: 0px;
     }
@@ -254,9 +254,10 @@ h2{
 
     .about-text{
         padding:0;
-        font-weight: 00;
+        font-weight: 500;
         font-size: 12px;
         line-height: 34px;
+        margin: 0;
     }
 
     .header-image2 img{
@@ -294,7 +295,7 @@ h2{
     }
 
     .ro-img{
-        width: 230px;
+        width: 200px;
     }
 
     .r0-text{
@@ -376,13 +377,20 @@ h2{
 
 @media(max-width:768px){
 
+    .R1{
+        margin: 0;
+        margin-top: 100px;
+    }
+
     .rule1-en{
         flex-direction: column;
+        margin: 0;
     }
 
     .no{
         font-size: 180px;
         width: fit-content;
+        margin: 0;
     }
 
     .ht{
@@ -635,6 +643,8 @@ footer img{
     }
 
     .giveup{
+        margin: 0;
+        margin-top: 30px;
         font-size: 150px;
     }
 
