@@ -160,9 +160,10 @@ h1{
 @media(max-width:768px){
     body{
         max-width: 100%;
+        overflow: visible;
     }
 
-    .section{
+    section{
         padding: 0;
     }
 
@@ -501,7 +502,8 @@ h2{
 @media(max-width:768px){
 
     .rule2{
-        margin: 0px;
+        margin: 100px;
+        padding: 0;
     }
 
     .many-big{
