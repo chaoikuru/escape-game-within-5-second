@@ -895,7 +895,7 @@ footer img{
 .result{
     text-align: center;
     padding: 100px;
-    max-width: 1080px;
+    /* max-width: 1080px; */
     margin: 0 auto;
 }
 
@@ -1071,8 +1071,8 @@ footer img{
 }
 
 .door-exit{
-    width: 54%;
-    margin: 10px;
+    width: 50%;
+    margin: 30px;
     visibility: hidden;
 }
 
@@ -1095,6 +1095,27 @@ footer img{
         margin: 10px;
     }
 }
+
+@media(orientation: portrait) and (max-width:450px){
+    .door-exit{
+        visibility: hidden;
+    }
+
+    .toclear{
+        visibility: hidden;
+    }
+}
+
+@media(orientation: landscape) and (max-width:450px){
+    .door-exit{
+        visibility: visible;
+    }
+
+    .toclear{
+        visibility: visible;
+    }
+}
+
 
 .toclear {
     visibility: hidden;
