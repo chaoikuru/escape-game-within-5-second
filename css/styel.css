@@ -10,6 +10,7 @@ body{
 header{
     margin-top: 100px;
 }
+
 nav{
     position: fixed;
     display: flex;
@@ -1071,8 +1072,6 @@ footer img{
 }
 
 .door-exit{
-    width: 50%;
-    margin: 30px;
     visibility: hidden;
 }
 
@@ -1096,6 +1095,16 @@ footer img{
     }
 }
 
+.toclear {
+    visibility: hidden;
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    text-align: center;
+}
+
+
 @media(orientation: portrait) and (max-width:450px){
     .door-exit{
         visibility: hidden;
@@ -1117,16 +1126,6 @@ footer img{
 }
 
 
-.toclear {
-    visibility: hidden;
-    display:inline-block;
-    margin: 0;
-    padding: 0;
-    width: 105px;
-    text-align: center;
-}
-
-
 /* カウントダウン */
 
 #countdown {
@@ -1134,6 +1133,7 @@ footer img{
     font-weight: 500;
     font-size: 48px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .qestion{
@@ -1141,7 +1141,7 @@ footer img{
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .qestion-title{
@@ -1150,9 +1150,8 @@ footer img{
     position: fixed;
     top: 0px;
     text-align: center;
-    margin: 0;
+    margin: 0 auto 100px;
     padding: 20px;
-    margin-bottom: 100px;
 }
 
 @media(max-width:768px){
