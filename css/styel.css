@@ -121,7 +121,6 @@ nav a:hover:before {
 
 section{
    padding: 60px 0;
-   padding-bottom: 100px;
 }
 
 .title{
@@ -435,6 +434,7 @@ h2{
     letter-spacing: 0.215em;
     margin: 0;
 }
+
 @media(max-width:1080px){
 .no{
     font-size: 250px;
@@ -650,7 +650,7 @@ h2{
     font-weight: 500;
     font-style: normal;
     letter-spacing: 0.12em; 
-    margin-left: 0.12em;
+
     margin: 0px auto;
     padding: 0;
     text-align: center;
