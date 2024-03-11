@@ -1,7 +1,7 @@
 // カウントダウンを開始する関数
 function startCountdown() {
     var countdownElement = document.getElementById('countdown');
-    var count = 5; // カウントダウンの初期値
+    var count = 10; // カウントダウンの初期値
 
     // カウントダウンを実行するタイマー
     var countdownTimer = setInterval(function () {

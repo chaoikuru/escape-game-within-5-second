@@ -1,6 +1,10 @@
 body{
     margin: 0;
-
+    background-image: url('../images/background.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: #f5bd1a;
 }
 
 header{
@@ -116,13 +120,14 @@ nav a:hover:before {
 }
 
 section{
-   padding: 60px 0;
+   padding: 10px 0;
+   margin-bottom: 100px;
 }
 
 .title{
     display: flex;
     justify-content: center;
-    column-gap: 10px;
+    column-gap: 30px;
     flex-wrap: wrap;
     margin: 60px 0px;
     margin-top: 30px;
@@ -134,7 +139,7 @@ section{
 
 .title-text p{
     font-size: 16px;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.6em;
     font-family: stolzl, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -151,9 +156,8 @@ h1{
 }
 
 .header-image{
-    margin-top: 30px;
-    width: 35%;
-    height: 35%;
+    margin-top: 50px;
+    width: 40%;
 }
 
 @media(max-width:768px){
@@ -264,14 +268,14 @@ h2{
 }
 
 .about{
-    margin: auto;
-    background-image: url(../images/b.png);
+    background-image: url(../images/about_background.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 80%;
     max-width: 1080px;
     margin: 0 auto;
     margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .about-text{
@@ -288,13 +292,13 @@ h2{
     font-style: normal;
 }
 
-.header-image2{
+.about_image{
     text-align: center;
     margin-top: 10px;
 }
 
-.header-image2 img{
-    width: 5%;
+.about_image img{
+    width: 7%;
 }
 
 @media(max-width:768px){
@@ -326,7 +330,7 @@ h2{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    column-gap: 30px;
+    column-gap: 50px;
     align-items: center;
 }
 
@@ -338,7 +342,12 @@ h2{
 }
 
 .ro-img{
-    width: 440px;
+    width: 200px;
+}
+
+.rule_timer{
+    padding-top: 100px;
+   width: 150px;
 }
 
 @media(max-width:768px){
@@ -346,26 +355,32 @@ h2{
     .R0{
         padding: 0;
         margin: 0;
-        column-gap: 0px;
+        column-gap: 20px;
     }
 
     .ro-img{
-        width: 200px;
+        width: 100px;
     }
 
     .r0-text{
         font-size: 14px;
         
     }
+
+    .rule_timer{
+        padding-top: 150px;
+       width: 90px;
+    }
 }
 
-.R1{
+.rule2{
     display: flex;
     justify-content: space-around;
     margin: 100px;
+
 }
 
-.rule1{
+.rule2_2{
    display: flex;
    justify-content: flex-start;
    flex-direction: column;
@@ -382,7 +397,7 @@ h2{
     top: 100px;
 }
 
-.rule1-en{
+.rule2-en{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -391,7 +406,7 @@ h2{
 }
 
 .no{
-    font-size: 400px;
+    font-size: 180px;
     letter-spacing: 10px;
     font-family: stolzl, sans-serif;
     font-weight: 600;
@@ -399,8 +414,8 @@ h2{
     margin: 0;
 }
 
-.ht1{
-    font-size: 150px;
+.hint_and_time1{
+    font-size: 50px;
     letter-spacing: 0.25em;
     font-family: stolzl, sans-serif;
     font-weight: 500;
@@ -408,26 +423,26 @@ h2{
     margin: 0;
 }
 
-.ht2{
-    font-size: 150px;
-    letter-spacing: 0.115em;
+.hint_and_time2{
+    font-size: 50px;
+    letter-spacing: 0.14em;
     font-family: stolzl, sans-serif;
     font-weight: 500;
     font-style: normal;
     margin: 0;
 }
 
-.rule1-ja{
-    margin-top: -50px;
+.rule2-ja{
+    margin-top: -20px;
 }
 
-.rule1-ja p{
+.rule2-ja p{
     font-family: dnp-shuei-gothic-gin-std, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 100px;
-    line-height: 160px;
-    letter-spacing: 0.215em;
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: 0.1em;
     margin: 0;
 }
 
@@ -438,22 +453,25 @@ h2{
     margin: 0;
 }
 
-.ht{
+.hint_and_time{
     display: flex;
     flex-direction: column;
     column-gap: 20px;
     margin-top: -10%;
+    font-family: stolzl, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
-.ht1{
+.hint_and_time1{
     font-size: 80px;
 }
 
-.ht2{
+.hint_and_time2{
     font-size: 80px;
 }
 
-.rule1-ja p{
+.rule2-ja p{
     font-size: 80px;
     line-height: 120px;
 }
@@ -462,12 +480,12 @@ h2{
 
 @media(max-width:768px){
 
-    .R1{
+    .rule2{
         margin: 0;
         margin-top: 100px;
     }
 
-    .rule1-en{
+    .rule2-en{
         flex-direction: column;
         margin: 0;
     }
@@ -478,44 +496,29 @@ h2{
         margin: 0;
     }
 
-    .ht{
+    .hint_and_time{
         display: flex;
         flex-direction: row;
         column-gap: 20px;
         margin-top: -10%;
     }
 
-    .ht1{
+    .hint_and_time1{
         font-size: 45px;
     }
 
-    .ht2{
+    .hint_and_time2{
         font-size: 45px;
     }
 
-    .rule1-ja{
+    .rule2-ja{
         margin-top: 20px;
     }
 
-    .rule1-ja p{
+    .rule2-ja p{
         font-size: 32px;
         line-height: 50px;
     }
-}
-
-.rule2{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 150px;
-    max-width: 1080px;
-    margin: 0 auto;
-    
-}
-
-.rure2-ja{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
 }
 
 .many-2{
@@ -551,21 +554,6 @@ h2{
     text-align: right;
 }
 
-.rule2-en{
-    margin: 0;
-}
-
-.rule2-en p{
-    text-align: right;
-    font-family: stolzl, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 72px;
-    letter-spacing:  0.1em;
-    margin: 20px 0;
-    padding-bottom: 10px;
-}
-
 .a1 p{
     padding: 0;
     font-size: 100px;
@@ -590,11 +578,6 @@ h2{
         padding: 0 30px;
     }
 
-    .rule2{
-        padding: 0;
-        margin-bottom: 100px;
-    }
-
     .many-big{
         font-size: 50px;
         margin-left: 0;
@@ -607,14 +590,6 @@ h2{
 
     .mj{
         width: fit-content;
-    }
-
-    .rule2-en{
-        padding: 0;
-    }
-
-    .rule2-en p{
-        margin-right: 0px;
     }
 
     .a1 p{
@@ -636,7 +611,13 @@ h2{
     justify-content: center;
     text-align: center;
     max-width: 1080px;
-    margin: 0 auto;
+    margin: 100px auto;
+    font-family: dnp-shuei-gothic-gin-std, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: 0.1em;
 }
 
 .never{
@@ -716,15 +697,15 @@ h2{
 footer{
     font-family: stolzl, sans-serif;
     font-weight: 300;
-    font-size: 36px;
+    font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 1%;
     margin: 0;
-    padding: 10px;
-    border: solid #000000 4px;
-    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: solid #000000 2px;
+    background-color: #f5bd1a;
 }
 
 footer img{
@@ -786,9 +767,9 @@ footer img{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 200px;
     max-width: 1080px;
     margin: 0 auto;
+    margin-bottom: 200px;
 }
 
 .episode-title{
@@ -828,6 +809,7 @@ footer img{
     display: block;
     margin: 0;
 }
+
 .play a{
     font-size: 24px;
     font-family: stolzl, sans-serif;
@@ -936,43 +918,11 @@ footer img{
     padding: 0;
 }
 
-.fail{
-    background-color: #000000;
-}
-
 .fail p{
-    color: #ffffff;
+    color: #000;
 }
 
-.fail a{
-    font-size: 24px;
-    font-family: stolzl, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-    border: solid #ffffff thick;
-    border-radius: 20px;
-    padding: 26px 62px;
-    margin-bottom: 30px;
-}
 
-.fail a:hover{
-    color: #000000;
-    background-color: #ffffff;
-    border-radius: 20px;
-    transition: 0.5s;
-}
-
-.fail img{
-    width: 90%;
-    margin: 0;
-    padding: 0;
-}
 
 @media(max-width:768px){
 
@@ -990,16 +940,6 @@ footer img{
         margin-bottom: 50px;
     }
 
-    .fail a{
-        font-size: 16px;
-        padding: 20px 48px;
-        margin-top: 60px;
-        margin-bottom: 50px;
-    }
-
-    .fail img{
-        width: 250px;
-    }
 
     .result img{
         width: 250px;
@@ -1026,25 +966,6 @@ footer img{
         padding: 20px 48px;
         margin-top: 60px;
         margin-bottom: 50px;
-    }
-
-    .fail a{
-        font-size: 16px;
-        padding: 20px 48px;
-        margin-top: 60px;
-        margin-bottom: 50px;
-    }
-
-    .fail img{
-        width: 250px;
-    }
-
-    .result img{
-        width: 250px;
-    }
-
-     .fail{
-        padding-bottom: 1000px;
     }
 
 }
@@ -1127,9 +1048,17 @@ footer img{
 #countdown {
     font-family: stolzl, sans-serif;
     font-weight: 500;
-    font-size: 48px;
+    font-size: 36px;
     text-align: center;
     margin: 0 auto;
+    padding: 30px;
+}
+
+.countdown{
+    background-image: url(../images/timer.png);
+    background-position: center;
+    background-size: 6%;
+    background-repeat: no-repeat;
 }
 
 .qestion{
@@ -1137,16 +1066,15 @@ footer img{
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .qestion-title{
     width: 100%;
-    background-color: #aeaeae1d;
     position: fixed;
     top: 0px;
     text-align: center;
-    margin: 0 auto 100px;
+    margin: 0 0 100px;
     padding: 20px;
 }
 
@@ -1154,4 +1082,73 @@ footer img{
    .qestion-title{
     padding: 10px;
    }
+
+   #countdown{
+    font-size: 24px;
+   }
 }
+
+.episode3{
+    margin-bottom: 30px;
+}
+
+.box {
+    margin-top: 100px;
+    width: 300px;                /* 横幅を200pxに指定 */
+    height: 600px;               /* 横幅を200pxに指定 */
+    overflow-y: scroll;          /* 縦方向にスクロール可能にする */
+    /*スクロールバー非表示（IE・Edge）*/
+    -ms-overflow-style: none;
+    /*スクロールバー非表示（Firefox）*/
+    scrollbar-width: none;
+  }
+  
+  .box::-webkit-scrollbar{
+      display:none;
+    }
+  
+    .ima img{
+      width: 80%;
+      margin-bottom: 100px;
+    }
+  
+    .ima2 img{
+      margin-bottom: 30px;
+    }
+  
+    .Box{
+      margin: 100px;
+      margin-top: -50px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .boy{
+      width: 400px;
+    }
+  
+    .boy-img{
+      margin-top: 400px;
+      width: 100%;
+      z-index: 3;
+    }
+  
+    .exit3{
+      margin: auto;
+    }
+  
+    @media(max-width:768px){
+      .ima img{
+        width: 60%;
+        margin-bottom: 70px;
+      }
+  
+      .box {
+        margin-top: 200px;
+        height: 400px;
+      }
+  
+      .boy{
+        width: 300px;
+      }
+    }
