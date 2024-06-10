@@ -1,12 +1,7 @@
-setTimeout(function(){
-    window.location.href = "../fail.html";
-  }, 10*1000);
+$(function($){
 
 
-  $(function($){
-
-
-    $('.images').slick({
+    $('.imagess').slick({
         arrows: true,
         autoplay: false,
         dots: true,
